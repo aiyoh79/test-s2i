@@ -71,5 +71,5 @@ def get_space_data():
 
 
 if __name__ == "__main__":
-    app_port = os.environ.get("APP_PORT", 5050)
+    app_port = os.environ.get("APP_PORT", 8080)
     app.run(host="0.0.0.0", port=app_port)
