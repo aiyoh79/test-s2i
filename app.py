@@ -16,7 +16,7 @@ app = Flask(__name__)
 @app.get("/")
 def home():
     return """
-    <h1>Welcome to My Space Explorer 🚀</h1>
+    <h1>Your ultimate Space Explorer 🚀</h1>
     <p>Click the button below to fetch a random piece of the universe!</p>
     <a href="/space"><button>Explore Space</button></a>
     """
